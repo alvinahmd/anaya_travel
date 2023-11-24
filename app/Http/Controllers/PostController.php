@@ -27,7 +27,7 @@ class PostController extends Controller
     }
     public function category(): view
     {
-        $posts = post::latest()->paginate(5);
+        $posts = post::latest()->paginate(50);
         return view('category.category', compact('posts'));
     }
     public function user(): View
@@ -131,7 +131,7 @@ class PostController extends Controller
     {
         $query = $request->input('query');
 
-        $posts = Post::where('title', 'like', "%$query%")->get();
+        $posts = Post::where('title', 'like', "%$query%")->paginate(10);
         return view('post.index', ['posts' => $posts]);
     }
     public function cari(Request $request)

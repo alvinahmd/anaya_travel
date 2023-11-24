@@ -16,16 +16,16 @@
   @section ('content')
   <div class="pt-40">
     <div class="md:container md:px-12 px-2">
-        <form action="caricategory" role="search">
-          <div class="flex px-2">
-          <input type="text" placeholder="Search post" name="category" class="w-full border-2 border-blue-500 text-sm focus focus:outline-none  text-red-400 focus:duration-300 rounded-md">            
+      <form action="caricategory" role="search">
+        <div class="flex px-2">
+          <input type="text" placeholder="Search post" name="category" class="w-full border-2 border-blue-500 text-sm focus focus:outline-none  text-red-400 focus:duration-300 rounded-md">
           <div class="pl-2">
             <button class="rounded-lg bg-green-600 w-14 py-2 text-white text-sm">
               Search
             </button>
           </div>
-          </div>
-        </form>
+        </div>
+      </form>
       <div class="flex flex-wrap py-8">
         <?php $number = 1; ?>
         @forelse ($posts as $post)
