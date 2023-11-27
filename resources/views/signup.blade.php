@@ -30,7 +30,7 @@ crossorigin="anonymous"></script>
       <div class="w-1/2 pl-7">
         <div class="w-72 h-[500px] bg-white/10 backdrop-blur-sm rounded-xl border border-white">
           <form action="{{ url('signup') }}" method="POST" class="px-8 py-16 ">
-            <h2 class="text-2xl font-semibold text-center font-['Lora']">SignIn</h2>
+            <h2 class="text-2xl font-semibold text-center font-['Lora']">DAFTAR</h2>
             @csrf
 
             <div class="mb-8">
@@ -57,7 +57,7 @@ crossorigin="anonymous"></script>
             </div>
 
             <div class="mb-4">
-              <button type="submit" class="w-full py-2 rounded-full font-['Lora'] text-xl text-center" style="background: linear-gradient(243deg, #7FF224 0%, #EBE943 100.06%);">Login</button>
+              <button type="submit" class="w-full py-2 rounded-full font-['Lora'] text-xl text-center" style="background: linear-gradient(243deg, #7FF224 0%, #EBE943 100.06%);">Daftar</button>
             </div>
             <a href="/login">
               <p class="text-xs font-['Poppins'] text-slate-400 text-center">

@@ -18,11 +18,6 @@
                     Category
                 </a>
             </div>
-            <div class="px-5 py-2">
-                <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                    Blog
-                </a>
-            </div>
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
             <a href="#" class="text-white">
